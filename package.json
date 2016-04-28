@@ -1,12 +1,13 @@
 {
   "name": "react-ts-mocha",
   "version": "1.0.0",
-  "description": "Boilerplate for react typescript project with mocha",
+  "description": "Boilerplate for a react-typescript project with mocha",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --content-base .",
     "build": "webpack",
     "postinstall": "typings install",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "tslint src/**/*.ts src/**/*.tsx"
   },
   "keywords": [
     "boilerplate",
