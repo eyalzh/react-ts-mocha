@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Boilerplate for react typescript project with mocha",
   "scripts": {
+    "dev": "webpack-dev-server --inline --hot --content-base .",
+    "build": "webpack",
+    "postinstall": "typings install",
     "test": "mocha"
   },
   "keywords": [
-    "biolerplate",
+    "boilerplate",
     "react",
     "mocha"
   ],
@@ -14,13 +17,14 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.4.5",
+    "react-hot-loader": "^1.3.0",
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "tslint": "^3.8.1",
+    "typescript": "^1.8.10",
     "typings": "^0.8.1",
     "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1",
-    "typescript": "^1.8.10"
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "react": "^15.0.1",
