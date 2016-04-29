@@ -1,16 +1,11 @@
 {
   "name": "react-ts-mocha",
   "version": false,
-  "dependencies": {
-    "chai": "registry:npm/chai#3.5.0+20160415060238"
-  },
   "ambientDependencies": {
-    "expect": "registry:dt/expect#1.13.4+20160316155526",
+    "chai": "registry:dt/chai#3.4.0+20160317120654",
     "mocha": "registry:dt/mocha#2.2.5+20160317120654",
     "react": "registry:dt/react#0.14.0+20160423065914",
+    "react-addons-test-utils": "registry:dt/react-addons-test-utils#0.14.0+20160427035638",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
-  },
-  "ambientDevDependencies": {
-    "react-addons-test-utils": "registry:dt/react-addons-test-utils#0.14.0+20160427035638"
   }
 }
